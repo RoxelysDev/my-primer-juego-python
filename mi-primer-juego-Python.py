@@ -33,7 +33,7 @@ while intentos_restantes > 0:
     else:
         print("Pista: Es más pequeño.")
     
-    intentos_restantes -= 1 # Forma corta de restar 1
+    intentos_restantes -=1 # Forma corta de restar 1
 
 if intentos_restantes == 0:
     print(f"Game Over. El número era {numero_secreto}.")
